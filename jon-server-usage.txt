@@ -1,0 +1,33 @@
+jon-server setup and usage
+
+1)Install JSON Server
+
+npm install -g json-server
+
+2) create db.json file
+Added some dummy data
+{
+    "users" : [
+                {
+                "name" : "vijay",
+                 "age" : 25,
+                 "email" : "vijaykumar3198@gmail.com"
+                },
+
+                {
+                  "name" : "santosh",
+                   "age" : 20,
+                   "email" : "santoo@gmail.com"
+                }
+
+              ]
+
+}
+
+3) In package.json file -
+we have added below script
+"server" : "json-server --watch db.json --port 5000". The backend server will be running in port 5000
+
+4) run server
+npm run server
+Now we can see the data in browser
