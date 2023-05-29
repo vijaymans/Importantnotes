@@ -31,3 +31,5 @@ we have added below script
 4) run server
 npm run server
 Now we can see the data in browser
+
+5) every time when we run server/make changes to json server a new db.json created.
