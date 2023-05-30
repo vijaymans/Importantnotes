@@ -1,0 +1,58 @@
+Git is version control system. Its a software
+
+GitHub is online code hosting platform where others can see and contribute to the project.
+We  can track all the changes made to project. It maintains the history of project what all changes made to project, who made it and all.
+
+There will be green and redlines which indicates
+red- deleted lines
+green - newly added ones.
+
+basic linux commands
+
+1) mkdir - creates new project in given path
+
+2) cd- change directory or move to that folder
+
+3) cd.. - goes back to directory one level back
+
+4) ls- lists all the files
+
+5) clear - It clears terminal.
+
+6) git init - Intialize git repository to get the git folder and start using git features.
+
+7) ls .git - to check whether git folder is present/intialized  or not after running above command
+It should have the below details. Now we will be able to maintain history of project
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        29-05-2023  12:29:26                hooks
+d-----        29-05-2023  12:29:26                info
+d-----        29-05-2023  12:29:26                objects
+d-----        29-05-2023  12:29:26                refs
+-a----        29-05-2023  12:30:20            130 config
+-a----        29-05-2023  12:29:26             73 description
+-a----        29-05-2023  12:29:26             23 HEAD
+
+8) git status - It tells the status of the files which is not being tracked. It tells the changes is not being tracked and not saved in project.
+
+9) git add . -  It brings all the files to statging area to track.
+We can also provide specific filename instead of .
+
+10) git commit -m "commit message". - It saves the changes into repository. -m indicates commit message
+
+11) git restore -- staged "filename.txt" - If we brought them to staging phase but do not want to commit then we can send it back then use this command.
+
+12) git log -- to check the logs/all changes made to directory.
+
+13) git remote add origin <REMOTE_URL> --  to add origin url, we need to create a repository in github and copy the url of it and add in place of <REMOTE_URL>
+  once we add this url all these files will be moved to github repository.
+
+14) git remote -v  -- to check the added remote origin url
+
+15)  git push origin main -- This command pushes the code to gitHub repository for the above mentioned url.
+
+16)  
+---To check username and email of github account
+
+17) git clone -- to take a copy of code from github to local repository
