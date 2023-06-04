@@ -41,7 +41,11 @@ We can also provide specific filename instead of .
 
 10) git commit -m "commit message". - It saves the changes into repository. -m indicates commit message
 
-11) git restore --staged "filename.txt" - If we brought them to staging phase but do not want to commit then we can send it back then use this command.
+11) 
+a) git restore --staged "filename.txt" - If we brought them to staging phase but do not want to commit then we can send it back then use this command.
+b) git restore "pathoffile.txt" - If we delete the file accidentally and want to restore it back then use this command.
+
+
 
 12) git log -- to check the logs/all changes made to directory.
 
