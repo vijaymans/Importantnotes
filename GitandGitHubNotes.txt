@@ -63,5 +63,19 @@ b) git restore "pathoffile.txt" - If we delete the file accidentally and want to
 
 ---------------------------------------Branches --------------------------------
 There will be a default branch which is Master/Main where the code is deployed on Production.
-There can be multiple branches in repository with different names. These branches are the copy of original master branch, where each person can create the branch and work on it.
-Later he needs to raise PULL REQUEST(PR) for merging the code to master. This PR will be approved by TeamLead once the approval is done code is pushed to master
+There can be multiple branches in repository with different names.
+These branches are the copy of original master branch, where each person can create the branch and work on it.
+Later he needs to raise PULL REQUEST(PR) for merging the code to master. 
+This PR will be approved by TeamLead once the approval is done code is pushed to master
+
+18) git branch -- It gives the list of branches. Here * indicates the current branch on which we are working.
+* copy1
+  main
+  
+ 19) To create a new branch(copy of master branch) we use 
+ git checkout -b "branchname". It creates new branch which we can work on it. Once work is finished then follow the process
+ git status
+ git add .
+ git commit -m ""
+ git push 
+ The commits will also be made in our branch only.while pushing the code we need to push this to our branch we created not to master directly.
