@@ -73,9 +73,9 @@ This PR will be approved by TeamLead once the approval is done code is pushed to
   main
   
  19) To create a new branch(copy of master branch) we use 
- git checkout -b "branchname". It creates new branch which we can work on it. Once work is finished then follow the process
+ git checkout -b "branchname". It creates new branch which we can work on it. Once work is finished then follow the below steps
  git status
  git add .
  git commit -m ""
- git push 
+ git push --set-upstream origin copy1
  The commits will also be made in our branch only.while pushing the code we need to push this to our branch we created not to master directly.
