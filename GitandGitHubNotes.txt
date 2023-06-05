@@ -62,5 +62,6 @@ b) git restore "pathoffile.txt" - If we delete the file accidentally and want to
 17) git clone -- to take a copy of code from github to local repository
 
 ---------------------------------------Branches --------------------------------
-
+There will be a default branch which is Master/Main where the code is deployed on Production.
 There can be multiple branches in repository with different names. These branches are the copy of original master branch, where each person can create the branch and work on it.
+Later he needs to raise PULL REQUEST(PR) for merging the code to master. This PR will be approved by TeamLead once the approval is done code is pushed to master
