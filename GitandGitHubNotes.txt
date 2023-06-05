@@ -56,7 +56,11 @@ b) git restore "pathoffile.txt" - If we delete the file accidentally and want to
 
 15)  git push origin main -- This command pushes the code to gitHub repository for the above mentioned url.
 
-16)  
+16) 
 ---To check username and email of github account
 
 17) git clone -- to take a copy of code from github to local repository
+
+---------------------------------------Branches --------------------------------
+
+There can be multiple branches in repository with different names. These branches are the copy of original master branch, where each person can create the branch and work on it.
